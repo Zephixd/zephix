@@ -46,3 +46,8 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Archivos personales / de desarrollo (no se publican)
+/test
+/packages/youtube_explode_dart/test
+/packages/youtube_explode_dart/.github

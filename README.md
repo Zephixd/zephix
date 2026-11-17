@@ -1,17 +1,27 @@
-# zephix
+# Zephix Music
 
-Zephix Music by GreenKnow Systems
+Aplicación de música para Android hecha en Flutter, por **GreenKnow Systems**.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Búsqueda y reproducción de música con reproducción en segundo plano.
+- Biblioteca local, playlists, álbumes y artistas.
+- Letras, recomendaciones y estadísticas de escucha.
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologías
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Flutter · Dart · Riverpod · go_router · just_audio · audio_service · Drift (SQLite)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Incluye versiones adaptadas de `youtube_explode_dart` y `youtube_music_explode_dart`
+en `packages/`.
+
+## Cómo ejecutarlo
+
+```bash
+flutter pub get
+dart run build_runner build
+flutter run
+```
+
+---
+Desarrollado por **Mathias Britos Griffith (GreenKnow)**.
